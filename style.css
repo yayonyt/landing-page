@@ -1,0 +1,56 @@
+* {
+
+    font-family: Roboto;
+
+}
+
+body {
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+
+.nav {
+
+    background-color: #1f2937;
+    width: 100%;
+
+    display: flex;
+    /* FLEXBOX PROPERTIES */
+    justify-content: space-between;
+
+}
+
+#title {
+
+    color: #f9faf8;
+    font-size: 24px;
+    margin-left: 100px;
+
+}
+
+a {
+
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+li {
+
+    list-style-type: none;
+
+}
+
+ul {
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    margin-right: 100px;
+
+}

@@ -21,6 +21,7 @@ body {
     height: 50px;
     display: flex;
     /* FLEXBOX PROPERTIES */
+    flex: 1;
     justify-content: space-between;
     align-items: center;
 
@@ -72,6 +73,7 @@ ul {
 
     background-color: #1f2937;
     display: flex;
+    flex: 1;
     padding: 25px;
     /*Flex Properties*/
     justify-content: space-between;
@@ -114,5 +116,92 @@ p {
     width: 100px;
     border-radius: 7.5px;
     text-align: center;
+
+}
+
+.img {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 5px solid #3882f6
+
+}
+
+.quotes {
+
+    font-size: 18px;    
+    color: black;
+
+}
+
+.stories {
+    
+    /*FLEX PROPERTIES*/
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 75px;
+
+}
+
+.imgs {
+
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+
+}
+
+.img_content {
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-width: 200px;
+
+}
+
+#stories {
+
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+
+}
+
+.collection {
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+
+#q {
+
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+
+}
+
+#a {
+
+    color: black;
+    text-align: right;
+
+}
+
+.quote {
+
+    background-color: #e5e7eb;
+    padding: 100px;
 
 }
